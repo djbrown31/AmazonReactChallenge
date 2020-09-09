@@ -1,6 +1,7 @@
 import React from 'react'
 import './CheckoutProduct.css'
 import { useStateValue } from "./StateProvider";
+import './reducer.js'
 
 
 function CheckoutProduct({ id, image, title, price, rating }) {
