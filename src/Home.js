@@ -22,9 +22,9 @@ function Home() {
                     />
                     <Product
                         id="49538094"
-                        title="Kenwood Mix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+                        title="Stand Mixer, Cusimax 5-Quart 800W Dough Mixer, Tilt-Head Electric Mixer with Stainless Steel Bowl, Dough Hook, Mixing Beater and Whisk, CMKM-150, Black"
                         price={239.0}
-                        image="https://images-na.ssl-images-amazon.com/images/I/810%2BGNdkzKL._AC_SX450_.jpg"
+                        image="https://m.media-amazon.com/images/I/61S1+6AY13L._AC_UY218_.jpg"
                         rating={4}
                     />
                 </div>
@@ -40,7 +40,7 @@ function Home() {
                         id="23445930"
                         title="Amazon Echo (3rd Generation) | Smart Speaker with Alexa, Charcoal Fabric"
                         price={98.99}
-                        image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf$300x400_retinamobilex2$"
+                        image="https://m.media-amazon.com/images/I/6182S7MYC2L._AC_UY218_.jpg"
                         rating={5}
                     />
                     <Product
