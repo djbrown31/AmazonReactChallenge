@@ -16,7 +16,7 @@ function App() {
     //will only run once when app component loads
 
     auth.onAuthStateChanged(authUser => {
-      console.log('THE USER IS >>>', authUser);
+      console.log('THE USER IS >>> ', authUser);
 
       if (authUser) {
         //the user just logged in / the user was logged in
@@ -41,11 +41,11 @@ function App() {
         <Switch>
           <Route path="/login" >
             <Login />
-          </Route >
+          </Route>
           <Route path="/checkout" >
             <Header />
             <Checkout />
-          </Route >
+          </Route>
           <Route path="/">
             <Header />
             <Home />

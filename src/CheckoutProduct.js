@@ -1,8 +1,6 @@
 import React from 'react'
 import './CheckoutProduct.css'
 import { useStateValue } from "./StateProvider";
-import './reducer.js'
-
 
 function CheckoutProduct({ id, image, title, price, rating }) {
 
@@ -11,12 +9,8 @@ function CheckoutProduct({ id, image, title, price, rating }) {
     const removeFromBasket = () => {
         //remove from basket
         dispatch({
-            type:
-                "REMOVE_FROM_BASKET",
-            item: {
-                id: id,
-            }
-
+            type: "REMOVE_FROM_BASKET",
+            id: id,
         })
     }
 
@@ -25,7 +19,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
             <img className='checkoutProduct__image' src={image} />
 
             <div className='checkoutProduct__info'>
-                <p className='checkoutProduct__title'>(title)</p>
+                <p className='checkoutProduct__title'>{title}</p>
                 <p className='checkoutProduct__price'>
                     <small>$</small>
                     <strong>{price}</strong>
